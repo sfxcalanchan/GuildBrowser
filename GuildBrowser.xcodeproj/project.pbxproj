@@ -59,6 +59,8 @@
 		CB9FDD3415E9B34900B3713E /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2715E9B34900B3713E /* WoWApiClient.m */; };
 		CB9FDD3515E9B34900B3713E /* WowItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2915E9B34900B3713E /* WowItemView.m */; };
 		CB9FDD3615E9B34900B3713E /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		DE179DE01C3FCA2C00571A64 /* GuildBrowserLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE179DDF1C3FCA2C00571A64 /* GuildBrowserLogicTests.m */; };
+		DE179DE21C3FCBC800571A64 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE179DE11C3FCBC800571A64 /* CharacterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,8 @@
 		CB9FDD2915E9B34900B3713E /* WowItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowItemView.m; sourceTree = "<group>"; };
 		CB9FDD2A15E9B34900B3713E /* WoWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoWUtils.h; sourceTree = "<group>"; };
 		CB9FDD2B15E9B34900B3713E /* WoWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoWUtils.m; sourceTree = "<group>"; };
+		DE179DDF1C3FCA2C00571A64 /* GuildBrowserLogicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuildBrowserLogicTests.m; sourceTree = "<group>"; };
+		DE179DE11C3FCBC800571A64 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +245,8 @@
 			children = (
 				CB9FDC6915E9872E00B3713E /* GuildBrowserTests.h */,
 				CB9FDC6A15E9872E00B3713E /* GuildBrowserTests.m */,
+				DE179DDF1C3FCA2C00571A64 /* GuildBrowserLogicTests.m */,
+				DE179DE11C3FCBC800571A64 /* CharacterTests.m */,
 				CB9FDC6415E9872E00B3713E /* Supporting Files */,
 			);
 			path = GuildBrowserTests;
@@ -521,6 +527,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9FDC6B15E9872E00B3713E /* GuildBrowserTests.m in Sources */,
+				DE179DE01C3FCA2C00571A64 /* GuildBrowserLogicTests.m in Sources */,
+				DE179DE21C3FCBC800571A64 /* CharacterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
